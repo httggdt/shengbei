@@ -1,0 +1,15 @@
+这是尾
+<script data-cfasync="false" src="/js/webLog.js"></script>
+<script >
+(function(){
+	var log = new YzWebLog({app_id:'hd.youzu.com'})
+	log.info("测试js日志",function(a){
+		console.log(a)
+	});
+	log.on("test",function(e,arr){
+		console.log(e,arr)
+	})
+	log.emit('test',{arr:[111111,222]})
+})()
+
+</script>

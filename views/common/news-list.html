@@ -1,0 +1,181 @@
+<style>
+.page_head {
+    height: 89px;
+    line-height: 89px;
+    margin-top: 39px;
+}
+
+.page_head h2 {
+    width: 150px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: #c5d6e6;
+    text-align: center;
+}
+
+.page_head .tab {
+    font-size: 14px;
+    color: #cccccc;
+    padding-right: 26px;
+}
+
+.page_head .tab a {
+    color: #999999;
+}
+
+.page_head .tab a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    background-color: #2c313e;
+    min-height: 1100px;
+    _height: 1100px;
+    padding-bottom: 20px;
+}
+
+.btn_newsC {
+    text-align: center;
+    margin: 0 15px 26px 15px;
+    border-bottom: 1px solid #474d5a;
+    padding-top: 18px;
+}
+
+.btn_newsC li {
+    display: inline;
+}
+
+.btn_newsC li a {
+    display: inline-block;
+    width: 109px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color: #afbecc;
+    margin-bottom: -1px;
+}
+
+.btn_newsC li.current a,
+.btn_newsC li a:hover {
+    border-bottom: 2px solid #d5e7f8;
+    color: #FFF;
+}
+
+.news_list {
+    padding: 0 90px;
+}
+
+.news_list li {
+    line-height: 42px;
+    height: 42px;
+    border-bottom: 1px solid #474d5a;
+    color: #afbecc;
+    padding: 0 8px;
+}
+
+.news_list li a {
+    font-size: 13px;
+    color: #afbecc;
+    display: inline-block;
+    width: 510px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.news_list li a span {
+    color: #59b2ff;
+    margin-right: 4px;
+}
+
+.news_list li a:hover {
+    color: #59b2ff;
+}
+
+.news_list li .date {
+    float: right;
+}
+
+.pagenumQu {
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 12px;
+}
+
+.pagenumQu li {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: 0 4px;
+}
+
+.pagenumQu li a {
+    padding: 2px 8px;
+    border: 1px solid #424958;
+    color: #afbecc;
+    display: inline-block;
+    overflow: hidden;
+    background-color: #373e4e;
+}
+
+.pagenumQu li a:hover {
+    border-color: #6d87ba
+}
+
+.pagenumQu li.selected a {
+    border: 1px solid transparent;
+    color: #FFF;
+    background: none;
+}
+</style>
+<div class="king_main">
+    <!-- 内页头部标签 -->
+    <div class="page_head">
+        <p class="tab f_r"><a href="/">返回首页</a> &gt; 新闻</p>
+        <h2>新闻中心</h2>
+    </div>
+    <!-- /内页头部标签 -->
+    <!-- content -->
+    <div class="content pageContent">
+        <!-- 新闻切换按钮 -->
+        <ul class="btn_newsC">
+            <li class=""><a href="/hot.html">热点</a></li>
+            <li class="current"><a href="/news.html" title="新闻">新闻</a></li>
+            <li class=""><a href="/notice.html" title="公告">公告</a></li>
+            <li class=""><a href="/active.html" title="活动">活动</a></li>
+            <li class=""><a rel="nofollow" href="/media.html" title="媒体">媒体</a></li>
+            <li class=""><a href="/guide.html" title="攻略">攻略</a></li>
+        </ul>
+        <!-- /新闻切换按钮 -->
+        <!-- 新闻类表 -->
+        <div class="news_list">
+            <ul>
+                <% for(var i = 0; i<rsData.length; i++) {%>
+                    <li>
+                        <em class="date">2018-06-07 16:56:02</em>
+                        <a title="<%=rsData[i].title %>" target="_blank" href="http://36.youzu.com/news/5146087.html"><span>[新闻]</span> <%=rsData[i].title %></a>
+                    </li>
+                    <% } %>
+            </ul>
+        </div>
+        <% if(listCount>=1) { %>
+        <div class="pagenumQu">
+            <ul>
+                <li class="first hidden"><a href="/webnews/news.html">第一页</a></li>
+                <li class="previous hidden"><a href="/webnews/news.html">上一页</a></li>
+                <% for(var i = 1; i<listCount; i+=27) {%>
+                    <li class="page selected">
+                        <a href="/webnews/news/page/<%=i %>.html">
+                            <%=i %>
+                        </a>
+                    </li>
+                <% } %>
+                <li class="next"><a href="/webnews/news/page/2.html">下一页</a></li>
+                <li class="last"><a href="/webnews/news/page/3.html">最后一页</a></li>
+            </ul>
+        </div>
+       <% } %>
+    </div>
+</div>

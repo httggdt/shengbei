@@ -1,0 +1,96 @@
+<style>
+.rServers_group {
+    margin-top: 36px;
+    border: 1px solid #474d5a;
+    background-color: #1f222b;
+    border-bottom-width: 0;
+    padding-bottom: 35px;
+}
+
+.rServers_group .title {
+    font-size: 18px;
+    color: #5785de;
+    line-height: 40px;
+    padding: 16px 0 0 40px;
+}
+
+.rServers_group .title i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.tj_severs {
+    width: 220px;
+    margin: 0 auto;
+}
+
+.tj_severs .tuijz {
+    float: right;
+}
+
+.tj_severs p {
+    line-height: 46px;
+    height: 48px;
+    padding: 0 11px 0 26px;
+}
+
+.tj_severs .host {
+    background-position: -480px -50px;
+}
+
+.tj_severs .host a {
+    color: #5785de;
+}
+
+.tj_severs .news {
+    background: url(../images/new.gif) no-repeat 0 16px;
+}
+
+.tj_severs p.last {
+    background-position: -480px 2px;
+}
+
+.tj_severs a {
+    color: #afbecc;
+}
+
+.tj_severs a:hover {
+    text-decoration: underline;
+}
+
+.btn_moreS {
+    display: block;
+    width: 210px;
+    height: 43px;
+    margin: 10px 0 14px 0;
+    text-align: center;
+    line-height: 43px;
+    color: #FFF;
+    font-size: 16px;
+    margin: 8px auto 0px auto;
+    background: #3462a3;
+    background: -moz-linear-gradient(top, #3462a3 0%, #203d66 100%);
+    background: -webkit-linear-gradient(top, #3462a3 0%, #203d66 100%);
+    background: linear-gradient(to bottom, #3462a3 0%, #203d66 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3462a3', endColorstr='#203d66', GradientType=0);
+    border-radius: 3px;
+}
+</style>
+<div class="rServers_group">
+    <h2 class="title"><i></i>推荐服务器</h2>
+    <div class="tj_severs" id="sidebar_list">
+     
+    </div>
+    <a href="/server" class="btn_moreS" rel="nofollow">更多服务器</a>
+</div>
+<script src="//pic.youzu.com/common/jquery-1.8.3.min.js"></script>
+<script src="//pic.youzu.com/common/jquery.cookie.js"></script>
+<script src="//pic.youzu.com/common/js/serverList_v3.js?20180552"></script>
+<script>
+var _Url = "http://36.youzu.com";
+serverList.set({ "version": 3, "isNew": true, "newUrl": _Url + "/site/gameServerList", "tabSize": 350, "gameId": 193, 'showPop': false, 'showSide': true, 'showLastLogin': true, testServerId: ['10000'], 'showLastServer': true, 'colors': { '1': '#00B128', '3': '#cda658', '4': '#0098b0', '5': '#222', '6': '#222', '7': '#0098b0' }, 'sideAmount': 4, 'apiUrl': 'http://api.youzu.com/' });
+serverList.init();
+</script>

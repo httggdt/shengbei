@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="zh-CN" />
+  <title>《猎龙计划》手游官网 - 猎人集结 激斗群龙</title>
+  <meta name="keywords" content="猎龙计划,猎龙计划手游,猎龙计划官网,猎龙计划活动,猎龙计划礼包,猎龙计划激活码,游族猎龙计划" />
+  <meta name="description" content="《猎龙计划》是由株式会社colopl/COLOPL，INC.正式授权，游族网络新番工作室代理发行的一款ARPG类手机游戏。游戏拥有完整的世界观，更融入了独特的单手操作模式。在游戏中，玩家将采用不同操作方式战胜多样的大型怪物和敌人，收集养成各有特色的装备，来完成这场惊心动魄的狩猎。" />
+  <link href="//shengbei.youzu.com/shengbei/guanwang_pc/css/liebook.css?v=20181102" rel="stylesheet" type="text/css">
+
+  <link rel="canonical" href="//shengbei.youzu.com/faq.html" />
+  <link rel="alternate" media="only screen and (max-width: 640px)" href="//shengbei.youzu.com/m/faq.html" />
+</head>
+
+<body data_game_type="mob" data_game_id="350">
+  <div class="container">
+  <!-- 顶通 -->
+  <%- include("./head.html") %>
+
+    <!--内页头部区 开始-->
+    <div class="NeiHeaderBar">
+
+      <!--头部导航-->
+      <div class="Nav_1ji_bar">
+        <div class="Nav_1ji_Group">
+            <h1 class="logoTu"><a href="http://shengbei.youzu.com/" title="圣杯之魂" class="logo_pic"><img src="<%= newsData.data.logo[0].thumb[0] %>"
+              alt=""></a></h1>
+          <p class="icon_ji icon_line_post"></p>
+          <ul class="navs1ji">
+              <li class="nji_1"> <a href="/" class="">首页</a> </li>
+              <li class="nji_2"> <a href="hot.html" class="" target="_blank">新闻</a> </li>
+              <li class="nji_3"> <a href="adv1.html" class="" target="_blank">新手</a> </li>
+              <li class="nji_4"> <a href="yingxiang.html" class="" target="_blank">品牌</a> </li>
+              <li class="nji_5"> <a href="hero.html" class="" target="_blank">资料</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="Nav_2ji_bar">
+        <div class="Nav_2ji_Group">
+          <ul class="navs2ji">
+            <li class="nbi_1"></li>
+            <li class="nbi_2">
+              <p><a href="news.html" target="_blank"><i></i>新闻<i></i></a></p>
+              <p><a href="active.html" target="_blank"><i></i>活动<i></i></a></p>
+              <p><a href="notice.html" target="_blank"><i></i>公告<i></i></a></p>
+              <p><a href="media.html" target="_blank"><i></i>媒体<i></i></a></p>
+            </li>
+            <li class="nbi_3">
+              <p><a href="adv1.html" target="_blank"><i></i>新手推荐<i></i></a></p>
+              <p><a href="adv2.html" target="_blank"><i></i>高手进阶<i></i></a></p>
+            </li>
+            <li class="nbi_4">
+              <p><a href="yingxiang.html" target="_blank"><i></i>圣杯碎片<i></i></a></p>
+            </li>
+            <li class="nbi_5">
+              <p><a href="hero.html" target="_blank"><i></i>圣杯图鉴<i></i></a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--头部导航 end-->
+      <!--头部内容  -->
+      <div class="NeiHeaderGroup">
+        <p class="biaoti_breadcrums">当前位置：<a href="index.html">圣杯官网</a> ＞ <a href="#">社区</a> ＞ <a href="#">FAQ</a> </p>
+        <p class="biaoti_zi"><img src="//shengbei.youzu.com/shengbei/guanwang_pc/images/biaoti_04.png?v=20181102" alt=""></p>
+      </div>
+      <!--头部内容 end-->
+
+    </div>
+    <!--内页头部区 结束-->
+
+    <!--内容框架Start-->
+    <div class="InNeirongWrap">
+      <div class="InNeirongGroup">
+
+        <!--两列框总局-->
+        <div class="LiangGroup">
+          <!-- left 侧 -->
+          <div class="LiaGroup_a">
+
+            <!--FAQ 页-->
+            <div class="bigFaqGroup">
+              <!-- 问答列表 -->
+              <div class="faqs_list">
+                <%- faqData.data.content %>
+              </div>
+              <!-- 问答列表 end  -->
+
+            </div>
+            <!--FAQ 页 end-->
+
+          </div>
+          <!-- left 侧 end -->
+
+          <!-- right 侧 -->
+          <div class="LiaGroup_b">
+            <p class="bqu_ge"><em class="icon_ji icon_rt_shang"></em> </p>
+
+            <!--右栏下载游戏-->
+            <div class="RtdownBox">
+              <p class="RtBiaoti">游戏下载</p>
+              <div class="rmei_01">
+                <p class="sdgame_pic"><img src="<%= newsData.data.code.img %>" alt=""></p>
+                <p class="sdgame_txt">扫一扫下载游戏</p>
+              </div>
+              <div class="rmei_02">
+                <p> <a rel="nofollow" href="<%= newsData.data.downIos[0].url %>" class="icon_ji btn_rt_down_store" data_type="download_ios">appstore</a> </p>
+                <p> <a rel="nofollow" href="<%= newsData.data.downAnd[0].remark %>" class="icon_ji btn_rt_down_android" data_type="download_and">android</a>
+                </p>
+                <p> <a rel="nofollow" href="#" class="icon_ji btn_rt_down_taptap" data_type="download_tap">taptap</a> </p>
+              </div>
+            </div>
+            <!-- 右栏下载游戏 end-->
+
+            <!-- 右栏 热门新闻-->
+            <div class="RtHotNewsBox">
+              <p class="RtBiaoti">热门新闻</p>
+              <div class="RtHotNewsZu">
+                <% for(var i=0; i<newsData.data.newslist.newsList.length; i++) { %>
+                <p class="hozuwz"> <a href="<%= newsData.data.newslist.newsList[i].url %>" title="" class="zw">
+                    <%= newsData.data.newslist.newsList[i].name %></a> </p>
+                <% } %>
+              </div>
+            </div>
+            <!-- 右栏 热门新闻 end-->
+
+            <!-- 右栏 官方媒体-->
+            <div class="RtMeitiBox">
+              <p class="RtBiaoti">官方媒体</p>
+              <div class="RouErmaBox">
+                <p class="rouer_pic"><span class="rouer_pi_bg"> </span> <img src="<%= newsData.data.address[0].content %>"
+                    alt="" /></p>
+                <p class="rouer_txt"> 微信二维码</p>
+                <p class="rou_shane_zu"> <a href="<%= newsData.data.address[1].content %>" class="sen_01"><em class="icon_ji icon_sha_weibo"></em><i>微博</i>
+                  </a> <a href="<%= newsData.data.address[2].content %>" class="sen_02"><em class="icon_ji icon_sha_tieba"></em><i>贴吧</i>
+                  </a> <a href="<%= newsData.data.address[3].content %>" class="sen_03"><em class="icon_ji icon_sha_bbs"></em><i>论坛</i>
+                  </a> </p>
+              </div>
+            </div>
+            <!-- 右栏 官方媒体 end-->
+
+          </div>
+          <!-- right 侧 end -->
+          <div class="clear"></div>
+        </div>
+        <!--两列框总局 end-->
+
+      </div>
+    </div>
+    <!--内容框架End-->
+
+    <!--尾部框架-->
+    <div class="FootWrap_bg">
+
+        <div class="FootWrap"></div>
+      </div>
+  
+      <!-- 底通 -->
+  </div>
+  </div>
+  <!--尾部框架End-->
+
+  <script src="//pic.youzu.com/common/jquery-1.8.3.min.js"></script>
+  <script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/focus.js?v=20181102"></script>
+  <script src="//pic.youzu.com/common/auth/youzuWeixin.js"></script>
+  <script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/common.js?v=20181102"></script>
+  <script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/seclet.js?v=20181102"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+deploy_job:
+  stage: deploy
+  script:
+    - gitlab_build_platform
+  tags:
+    - php
+  when: always
+  variables:
+
+     QA_SERVER: '10.6.55.4' #qa服务器地址,多个IP用,分隔
+
+     PRV_SERVER: '10.6.55.5' #预览服务器地址，多个IP用,分隔  10.7.32.101 压测服务器
+
+     QA_RSYNC_MODULE: 'shengbei.youzu.com' #rysnc module名称，默认使用项目名
+
+     PRV_RSYNC_MODULE: 'shengbei.youzu.com' #rysnc module名称，默认使用项目名

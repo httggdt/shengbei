@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta http-equiv='X-UA-Compatible' content='IE=EmulateIE7' />
+    <meta name="viewport" content="width=device-width,  maximum-scale=1.0, minimum-scale=1.0" />
+    <meta name="format-detection" content="telephone=no">
+    <title>《圣杯之魂》手游官网 - 魔幻3D战斗卡牌手游</title>
+    <meta name="keywords" content="//shengbei.youzu.com/m/<%= name %>/<%= id %>.html" />
+    <meta name="description" content="//shengbei.youzu.com/m/<%= name %>/<%= id %>.html" />
+    <link rel="stylesheet" href="//shengbei.youzu.com/shengbei/guanwang_yd/css/main.css?v=20181102">
+</head>
+<script>
+    //跳转
+    var test = window.location.href;
+    var path = test.substr(28);
+    // alert(test);localhost:8080/
+    // console.log(test.substr(28));
+    // console.log(test.substr(24));
+    var LowerCase = navigator.userAgent.toLowerCase();
+    if (LowerCase.indexOf('windows nt') === -1 && LowerCase.indexOf('macintosh') === -1) {
+    } else {
+        window.location.href = '//shengbei.youzu.com/'+path;
+    }
+</script>
+
+<body data_game_type="mob" data_game_id="350">
+    <section id="loading"></section>
+    <div class="container" id="container">
+        <div class="innerBox pagePic ">
+            <div class="backBox">
+                <a href="javascript:history.back(-1)" class="btn-back"></a>
+                <a href="../../../../m/" class="btn-home"></a>
+            </div>
+            <div class="inner">
+                <div class="tit">
+                    <%= detailData.data.info.title %>
+                </div>
+                <div class="time margin">发布于
+                    <%= detailData.data.info.pub_time %>
+                </div>
+                <%- detailData.data.info.content %>
+            </div>
+        </div>
+
+    </div>
+    <!-- 底通开始 -->
+    <script charset="utf-8" id="_FOOTER_" backColor="#373737" linkColor="#a4a4a4" mainColor="#5c5c5c" csh="新广出审[2017]7537号"
+        ybz="文网游备字【2017】M-RPG 0761" tagUrl=" //www.youzu.com" src="//pic.youzu.com/common/before_js/footer.yd750.js?v=20190107"></script>
+    <!-- 底通结束 -->
+    <script src="//shengbei.youzu.com/shengbei/guanwang_yd/js/jquery-1.7.min.js?v=20181102"></script>
+    <script src="//shengbei.youzu.com/shengbei/guanwang_yd/js/swiper.min.js?v=20181102"></script>
+    <script src="//shengbei.youzu.com/shengbei/guanwang_yd/js/fancybox.js?v=20181102"></script>
+    <script src="//pic.youzu.com/common/auth/youzuWeixin.js"></script>
+    <script src="//shengbei.youzu.com/shengbei/guanwang_yd/js/global.js?v=20181102"></script>
+    <script>
+    // 微信分享
+    var wxApp = new youzuWeixin({
+        act_url: "", 
+        act_id: "", //活动id
+        shareTitle: '圣杯之魂', // 分享标题
+        shareDesc: '邪魔觉醒，创新3D战斗卡牌手游邀你来战', // 分享描述
+        shareLink: "//shengbei.youzu.com/m/", // 分享链接
+        shareImgUrl: '//shengbei.youzu.com/shengbei/guanwang_yd/images/logo_icon.png', // 分享图标
+        shareTimeTitle: '', // 时间标题
+
+        shareSuccessCallback: function() {}
+    });
+    wxApp.share();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+<style>
+.content {
+    background-color: #2c313e;
+    min-height: 1100px;
+    _height: 1100px;
+    padding-bottom: 20px;
+}
+
+.server_list {
+    padding: 0px 64px 15px 64px;
+}
+
+.ser_sort {
+    color: #9db4ca;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.ser_sort span {
+    padding-left: 33px;
+    display: inline-block;
+    margin-right: 43px;
+}
+
+.ser_sort span,
+.ser_box .ser_list li a,
+.fast_into .input_fast_into,
+.fast_into .btn_fast_into,
+.ser_tabs .ser_tab_title li {
+    background: url(../demo/images/sprite_server.gif) no-repeat;
+}
+
+.ser_sort span.sort1 {
+    background-position: 0 -241px;
+}
+
+.ser_sort span.sort2 {
+    background-position: 0 -328px;
+}
+
+.ser_sort span.sort3 {
+    background-position: 0 -299px;
+}
+
+.ser_sort span.sort4 {
+    background-position: 0 -270px;
+}
+
+.ser_box {
+    padding: 16px 0px 20px;
+    overflow: hidden;
+    width: 729px;
+}
+
+.ser_box .ser_title {
+    margin-bottom: 17px;
+    font-size: 18px;
+    color: #5785de;
+    border-bottom: 1px solid #474d5a;
+    padding-bottom: 10px;
+    position: relative;
+    zoom: 1;
+}
+
+.ser_box .tjsb {
+    color: #5785de;
+    border-bottom: 1px solid #474d5a;
+}
+
+.ser_box .ser_list {
+    width: 786px;
+    overflow: hidden;
+}
+
+.ser_box .ser_list li {
+    width: 261px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.ser_box .ser_list li .qu_name {
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.ser_box .ser_list li a {
+    display: block;
+    width: 171px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 35px;
+    color: #6c5441;
+    font-size: 13px;
+    color: #FFF;
+}
+
+.ser_box .ser_list li a:hover {
+    text-decoration: none;
+}
+
+.ser_box .ser_list li a.s1 {
+    background-position: 0 0;
+}
+
+.ser_box .ser_list li a.s2 {
+    background-position: 0 -40px;
+}
+
+.ser_box .ser_list li a.s3 {
+    background-position: 0 -80px;
+}
+
+.ser_box .ser_list li a.s4 {
+    background-position: 0 -120px;
+}
+
+.ser_box .ser_list li a.s5 {
+    background-position: 0 -160px;
+}
+
+.ser_box .ser_list li a.s6 {
+    background-position: 0 -200px;
+}
+
+.ser_box .ser_list li a.s7 {
+    background-position: 0 -595px;
+}
+
+.fast_into {
+    float: right;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    color: #afbecc;
+}
+
+.fast_into .input_fast_into {
+    background: none;
+    width: 100px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #474d5a;
+    border-right: 0;
+    padding: 0 0 0 5px;
+    text-align: left;
+    color: #888888;
+    font-family: "微软雅黑";
+    vertical-align: middle;
+    outline: none
+}
+
+.fast_into .btn_fast_into {
+    background: #2966b7;
+    width: 85px;
+    border: 1px solid #2d76cc;
+    height: 24px;
+    line-height: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-left: -5px;
+    color: #FFF;
+}
+
+.ser_tabs {}
+
+.ser_tabs .ser_tab_title {
+    height: 33px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #afbecc;
+}
+
+.ser_tabs .ser_tab_title li {
+    float: left;
+    display: inline;
+    width: 111px;
+    height: 33px;
+    margin-right: 2px;
+    background: none;
+}
+
+.ser_tabs .ser_tab_title li.current {
+    /*background: url(../demo/images/sprite.png) no-repeat -145px -461px;*/
+}
+
+.ser_tabs .ser_tab_title li a {
+    display: inline-block;
+    width: 111px;
+    height: 33px;
+    line-height: 33px;
+    color: #afbecc;
+    font-size: 14px;
+    text-align: center;
+}
+
+.ser_tabs .ser_tab_title li.current a {
+    color: #FFF;
+}
+
+.ser_tabs .ser_tab_title li a:hover {
+    text-decoration: none;
+}
+</style>
+<div class="content">
+    <div class="server_list" id="server_list">
+    
+      
+    </div>
+</div>
+<script src="//pic.youzu.com/common/jquery-1.8.3.min.js"></script>
+<script src="//pic.youzu.com/common/jquery.cookie.js"></script>
+<script src="//pic.youzu.com/common/js/serverList_v3.js?20180552"></script>
+<script>
+    var _Url = "http://36.youzu.com";
+    serverList.set({"version":3,"isNew":true,"newUrl":_Url+"/site/gameServerList","tabSize":350, "gameId":193, 'showPop':false, 'showSide':true, 'showLastLogin':true, testServerId:['10000'],'showLastServer':true,'colors':{'1':'#00B128', '3':'#cda658', '4':'#0098b0', '5':'#222', '6':'#222', '7':'#0098b0'},'sideAmount':4, 'apiUrl':'http://api.youzu.com/'});
+    serverList.init();
+</script>

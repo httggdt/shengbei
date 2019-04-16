@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>《圣杯之魂》手游官网 - 魔幻3D战斗卡牌手游</title>
+    <meta name="keywords" content="圣杯之魂,圣杯之魂手游,圣杯之魂,圣杯之魂手游,圣杯之魂下载,圣杯之魂安卓下载,圣杯之魂官网,圣杯之魂手游iOS下载,圣杯之魂安卓版" />
+    <meta name="description" content="《圣杯之魂》是由游族网络代理发行的3D战斗卡牌手游，游戏以次时代精致画面、独特玩法、热血战斗、强大的组合技和丰富的世界观与你见面！" />
+    <link href="//shengbei.youzu.com/shengbei/guanwang_yd/css/main.css?v=20181102" rel="stylesheet" type="text/css">
+</head>
+
+<body data_game_type="mob" data_game_id="350">
+    <section id="loading"></section>
+    <div class="container" id="container">
+        <div class="innerBox pagePic">
+            <div class="backBox">
+                <a href="javascript:history.back(-1)" class="btn-back"></a>
+            </div>
+            <div class="tabs">
+                <a href="#" class="active">新闻</a>
+                <a href="#" class="">公告</a>
+                <a href="#" class="">活动</a>
+                <a href="#" class="">媒体</a>
+            </div>
+            <div class="innBox">
+                <div id="inner-container" class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-no-swiping">
+                            <div class="content-slide">
+                                <ul class="news-list">
+                                    <% for(var i=0; i<newsData.data.newslist.newsList.length; i++) {%>
+                                        
+                                    <li><a href="/m/<%= newsData.data.newslist.newsList[i].url.slice(26) %>">
+                                            <span>[<%= newsData.data.newslist.newsList[i].tags %>]</span>
+                                            <%= newsData.data.newslist.newsList[i].name %></a>
+                                        <time>
+                                            <%= newsData.data.newslist.newsList[i].pub_time %></time>
+                                    </li>
+                                    <% } %>
+                                </ul>
+                                <!-- <a class="btn-load" href="javascript:;"></a> -->
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-no-swiping">
+                            <div class="content-slide">
+                                <ul class="news-list">
+                                    <% for(var i=0; i<noticeData.data.newslist.newsList.length; i++) { %>
+                                    <li><a href="/m/<%= noticeData.data.newslist.newsList[i].url.slice(26) %>">
+                                            <span>[<%= noticeData.data.newslist.newsList[i].tags %>]</span>
+                                            <%= noticeData.data.newslist.newsList[i].name %></a>
+                                        <time>
+                                            <%= noticeData.data.newslist.newsList[i].pub_time %></time>
+                                    </li>
+                                    <% } %>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-no-swiping">
+                            <div class="content-slide">
+                                <ul class="news-list">
+                                    <% for(var i=0; i<activeData.data.newslist.newsList.length; i++) { %>
+                                    <li><a href="/m/<%= activeData.data.newslist.newsList[i].url.slice(26) %>">
+                                            <span>[<%= activeData.data.newslist.newsList[i].tags %>]</span>
+                                            <%= activeData.data.newslist.newsList[i].name %></a>
+                                        <time>
+                                            <%= activeData.data.newslist.newsList[i].pub_time %></time>
+                                    </li>
+                                    <% } %>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="swiper-slide swiper-no-swiping">
+                            <div class="content-slide">
+                                <ul class="news-list">
+                                    <% for(var i=0; i<mediaData.data.newslist.newsList.length; i++) { %>
+                                    <li><a href="/m/<%= mediaData.data.newslist.newsList[i].url.slice(26) %>">
+                                            <span>[<%= mediaData.data.newslist.newsList[i].tags %>]</span>
+                                            <%= mediaData.data.newslist.newsList[i].name %></a>
+                                        <time>
+                                            <%= mediaData.data.newslist.newsList[i].pub_time %></time>
+                                    </li>
+                                    <% } %>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底通开始 -->
+    <script charset="utf-8" id="_FOOTER_" backColor="#373737" linkColor="#a4a4a4" mainColor="#5c5c5c" csh="新广出审[2017]7537号" ybz="文网游备字【2017】M-RPG 0761" tagUrl="http://www.youzu.com" src="//pic.youzu.com/common/before_js/footer.yd750.js?v=20190107"></script>
+    <!-- 底通结束 -->
+
+    <script src="//shengbei.youzu.com/shengbei/guanwang_yd/js/jquery-1.7.min.js?v=20181102"></script>
+    <script src="//shengbei.youzu.com/shengbei/guanwang_yd/js/swiper.min.js?v=20181102"></script>
+    <script src="//shengbei.youzu.com/shengbei/guanwang_yd/js/fancybox.js?v=20181102"></script>
+    <script src="//pic.youzu.com/common/auth/youzuWeixin.js"></script>
+    <script src="//shengbei.youzu.com/shengbei/guanwang_yd/js/global.js?v=20181102"></script>
+    <script>
+    // 微信分享
+    var wxApp = new youzuWeixin({
+        act_url: "", 
+        act_id: "", //活动id
+        shareTitle: '圣杯之魂', // 分享标题
+        shareDesc: '邪魔觉醒，创新3D战斗卡牌手游邀你来战', // 分享描述
+        shareLink: "//shengbei.youzu.com/m/", // 分享链接
+        shareImgUrl: '//shengbei.youzu.com/shengbei/guanwang_yd/images/logo_icon.png', // 分享图标
+        shareTimeTitle: '', // 时间标题
+
+        shareSuccessCallback: function() {}
+    });
+    wxApp.share();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="zh-CN" />
+  <title>圣杯之魂游戏资料_游族圣杯之魂手游官网</title>
+  <meta name="keywords" content="圣杯之魂游戏资料,圣杯之魂,圣杯之魂手游,圣杯之魂官网,圣杯之魂活动,圣杯之魂礼包" />
+  <meta name="description" content="《圣杯之魂》是由游族网络代理发行的3D战斗卡牌手游，游戏以次时代精致画面、独特玩法、热血战斗、强大的组合技和丰富的世界观与你见面！圣杯之魂资料站跟您提供最详细最系统的游戏介绍，了解更多游戏资料，请关注圣杯之魂游戏官网！" />
+  <link href="//shengbei.youzu.com/shengbei/guanwang_pc/css/liebook.css?v=20181102" rel="stylesheet" type="text/css">
+
+  <link rel="canonical" href="//shengbei.youzu.com/hero.html" />
+</head>
+
+<body data_game_type="mob" data_game_id="350">
+  <div class="container">
+
+  <!-- 顶通 -->
+  <%- include("./head.html") %>
+
+    <!--内页头部区 开始-->
+    <div class="NeiHeaderBar">
+
+      <!--头部导航-->
+      <div class="Nav_1ji_bar">
+        <div class="Nav_1ji_Group">
+          <h1 class="logoTu"><a href="http://shengbei.youzu.com/" title="圣杯之魂" class="logo_pic"><img src="<%= heroData.data.logo[0].thumb[0] %>"
+                alt=""></a></h1>
+          <p class="icon_ji icon_line_post"></p>
+          <ul class="navs1ji">
+              <li class="nji_1"> <a href="/" class="">首页</a> </li>
+              <li class="nji_2"> <a href="hot.html" class="" target="_blank">新闻</a> </li>
+              <li class="nji_3"> <a href="adv1.html" class="" target="_blank">新手</a> </li>
+              <li class="nji_4"> <a href="yingxiang.html" class="" target="_blank">品牌</a> </li>
+              <li class="nji_5"> <a href="hero.html" class="" target="_blank">资料</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="Nav_2ji_bar">
+        <div class="Nav_2ji_Group">
+          <ul class="navs2ji">
+            <li class="nbi_1"></li>
+            <li class="nbi_2">
+              <p><a href="news.html" target="_blank"><i></i>新闻<i></i></a></p>
+              <p><a href="active.html" target="_blank"><i></i>活动<i></i></a></p>
+              <p><a href="notice.html" target="_blank"><i></i>公告<i></i></a></p>
+              <p><a href="media.html" target="_blank"><i></i>媒体<i></i></a></p>
+            </li>
+            <li class="nbi_3">
+              <p><a href="adv1.html" target="_blank"><i></i>新手推荐<i></i></a></p>
+              <p><a href="adv2.html" target="_blank"><i></i>高手进阶<i></i></a></p>
+            </li>
+            <li class="nbi_4">
+              <p><a href="yingxiang.html" target="_blank"><i></i>圣杯碎片<i></i></a></p>
+            </li>
+            <li class="nbi_5">
+              <p><a href="hero.html" target="_blank"><i></i>圣杯图鉴<i></i></a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--头部导航 end-->
+
+      <!--头部内容  -->
+      <div class="NeiHeaderGroup">
+        <p class="biaoti_breadcrums">当前位置：<a href="index.html">官网</a> ＞ <a href="#">资料</a>＞ <a href="#">圣杯图鉴</a></p>
+        <p class="biaoti_zi"><img src="//shengbei.youzu.com/shengbei/guanwang_pc/images/tujian.png?v=20181102" alt=""></p>
+      </div>
+      <!--头部内容 end-->
+
+    </div>
+    <!--内页头部区 结束-->
+
+    <!--内容框架Start-->
+    <div class="InNeirongWrap">
+      <div class="InNeirongGroup">
+
+        <!--两列合一框局-->
+        <div class="LiangHeGroup BossYeGroup">
+
+          <!-- BOSS图鉴 页-->
+
+          <!--选种类-->
+          <div class="ZhongleiBox">
+            <p class="Zlei_ha"> <span class="Zlei_sx">英雄属性</span>
+              <a data-value="0" class="on" href="#">防御</a>
+              <a data-value="1" class="on" href="#">输出</a>
+              <a data-value="2" class="on" href="#">辅助</a></p>
+            <p class="Zlei_ha"> <span class="Zlei_sx">英雄品质</span>
+              <a data-value="0" class="on" href="#">SSR</a>
+              <a data-value="1" class="on" href="#">SR</a>
+              <a data-value="2" class="on" href="#">R</a>
+              <a data-value="3" class="on" href="#">N</a> </p>
+          </div>
+          <!--选种类 end-->
+
+          <!--BOSS图-->
+          <div class="Bossbei_group">
+            <ul class="Zhubei_Zu">
+              <% for (var i=0; i<heroData.data.hero.length; i++ ) {%>
+              <li> <a data-num="<%= i %>" href="javascript:;" class="Zhub_liank"> </a>
+                <p class="Zhub_nor"><img src="<%= heroData.data.hero[i].pic_gray %>" alt="" /></p>
+                <p class="Zhub_on Zhub_tu"><img src="<%= heroData.data.hero[i].pic_colour %>" alt="" /></p>
+                <p class="Zhub_nor Zhub_zi">
+                  <%= heroData.data.hero[i].name %>
+                </p>
+              </li>
+              <% } %>
+            </ul>
+            <div class="clear"></div>
+          </div>
+          <!-- BOSS图 end-->
+          <p class="icon_ji Xins_di_bg"> </p>
+          <!-- BOSS图鉴 页 end-->
+        </div>
+        <!--两列合一框局 end-->
+
+
+      </div>
+    </div>
+
+    <div class="m-overlay"></div>
+    <!--尾部框架-->
+    <div class="FootWrap_bg">
+
+      <div class="FootWrap"></div>
+    </div>
+  </div>
+  <!--尾部框架End-->
+  </div>
+  <!--内容框架End-->
+
+  <script src="//pic.youzu.com/common/jquery-1.8.3.min.js"></script>
+  <script>
+
+    $(".ZhongleiBox a").click(function () {
+      /*修改选中状态*/
+      if ($(this).attr("class") == "on") {
+
+        $(this).removeClass("on");
+        getBoss();
+        return false;
+      } else {
+        $(this).addClass("on");
+        getBoss();
+        return false;
+
+      }
+      /*遍历Boss种类的值*/
+      // getBoss();
+    });
+    $(function () {
+      getBoss(); /*初始化*/
+    })
+
+    function getBoss() {
+      nature = [];
+      tone = [];
+      /*遍历属性*/
+      $(".ZhongleiBox p").eq(0).find("a").each(function (i, v) {
+        if ($(v).attr("class") == "on") {
+          nature.push($(v).attr("data-value"));
+        }
+      })
+      /*遍历品质*/
+      $(".ZhongleiBox p").eq(1).find("a").each(function (i, v) {
+        if ($(v).attr("class") == "on") {
+          tone.push($(v).attr("data-value"));
+        }
+      })
+
+      $.ajax({
+        url: "http://webapi.youzu.com/sbGuanwang/default/heroSearch",
+        type: 'GET',
+        dataType: "jsonp",
+        data: {
+          nature: nature,
+          tone: tone
+        },
+        success: function (res) {
+          data = res.data;
+          $(".Bossbei_group .Zhubei_Zu").html("");
+          $.each(data, function (index, info) {
+            if (index == "hero") {
+              if (info != "") {
+                for (var j = 0; j < info.length; j++) {
+                  Html = '<li> <a data-num="<%= i %>" href="javascript:;" class="Zhub_liank"> </a>';
+                  Html += '<p class="Zhub_nor"><img style="width: 156px;height:156px;" src="' + info[j].pic_gray +
+                    '" alt=""></p>';
+                  Html +=
+                    '<p class="Zhub_on Zhub_tu" style="display: none;"><img style="width: 156px;height:156px;" src="' +
+                    info[j].pic_colour + '" alt=""></p>';
+                  Html += '<p class="Zhub_nor Zhub_zi"> ' + info[j].name + '</p></li>';
+
+                  Html += '<div class="pop_heng_bar">';
+                  Html +=
+                    '<div class="pop_heng_Group"><a rel="nofollow" title="关闭弹窗" class="btns_close_pop" href="javascript:;"><i>X</i></a>';
+                  Html += '<div class="TaoZhuang_Box"><div class="TaoZhuang_Box">';
+                  Html += '<p class="heng_biaoti">' + info[j].name + '</p>';
+                  Html += '<div class="heng_tuzu"><div class="taozhuangtu"><img src="' + info[j].pic_hero +
+                    '" alt="" /></p></div>';
+                  Html += '<p class="tao_jieshao">' + info[j].hero_desc + '</p>';
+
+                  // skill 1
+                  Html += '<div class="skill skill-one"><div class="skill-pic"><img src="' + info[j].skill.pic +
+                    '" alt=""></div>';
+                  Html += '<div class="skill-desc"><p class="skill-title">' + info[j].skill.name + '</p>';
+                  Html += '<p class="skill-detail"> ' + info[j].skill.dis + '</p></div></div>';
+
+                  // skill2
+                  Html += '<div class="skill skill-sec"><div class="skill-pic"><img src="' + info[j].skil2.pic +
+                    '" alt=""></div>';
+                  Html += '<div class="skill-desc"><p class="skill-title">' + info[j].skil2.name + '</p>';
+                  Html += '<p class="skill-detail"> ' + info[j].skil2.dis + '</p></div></div>';
+
+                  // skill3
+                  Html += '<div class="skill skill-thr"><div class="skill-pic"><img src="' + info[j].skil3.pic +
+                    '" alt=""></div>';
+                  Html += '<div class="skill-desc"><p class="skill-title">' + info[j].skil3.name + '</p>';
+                  Html += '<p class="skill-detail"> ' + info[j].skil3.dis + '</p></div></div>';
+
+                  Html += '</div></div></div></div>';
+
+                  $(".Bossbei_group .Zhubei_Zu").append(Html);
+                }
+              }
+            } else if (info == "") {
+              $(".Bossbei_group .Zhubei_Zu").html("更多精彩，尽情期待");
+            } else {}
+          })
+          $(".Bossbei_group .Zhub_liank").hover(function () {
+            $(this).parent().find("p").eq(0).css("display", "none");
+            $(this).parent().find("p").eq(1).css("display", "block");
+          })
+          $(".Bossbei_group .Zhub_liank").mouseleave(function () {
+            $(this).parent().find("p").eq(0).css("display", "block");
+            $(this).parent().find("p").eq(1).css("display", "none");
+          })
+
+          //英雄页- 弹窗
+          $('.Zhub_liank').click(function (event) {
+            var a = $(this).data("num");
+            // console.log(a);
+            $('.m-overlay').fadeIn();
+            $('.pop_heng_bar').hide();
+            $(this).parent().next().fadeIn();
+            // console.log($(this).parent().next());
+          });
+          $(".btns_close_pop").click(function (event) {
+            $(".pop_heng_bar").fadeOut();
+            $('.m-overlay').fadeOut();
+          })
+
+        },
+        error: function (err) {
+          console.log("err",err)
+        }
+      });
+    }
+  </script>
+  <script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/focus.js?v=20181102"></script>
+  <script src="//pic.youzu.com/common/auth/youzuWeixin.js"></script>
+  <script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/common.js?v=20181102"></script>
+  <script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/seclet.js?v=20181102"></script>
+</body>
+
+</html>

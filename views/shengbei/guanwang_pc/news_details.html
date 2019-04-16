@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns="//www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="zh-CN" />
+<title>圣杯之魂游戏新手攻略_游族圣杯之魂手游官网</title>
+<meta name="keywords" content="<%= detailData.data.info.title %>"/>
+<meta name="description" content="<%= detailData.data.info.title %>"/>	
+<link href="//shengbei.youzu.com/shengbei/guanwang_pc/css/liebook.css?v=20181102" rel="stylesheet" type="text/css">
+
+<link rel="canonical" href="//shengbei.youzu.com/<%= name %>/<%= id %>.html" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="//shengbei.youzu.com/m/<%= name %>/<%= id %>.html" />
+
+</head>
+<script>
+    var test = window.location.href;
+          var path = test.substr(26);
+          // alert(test);localhost:8080/
+          // console.log(test.substr(27));
+          // console.log(test.substr(22));
+        var LowerCase = navigator.userAgent.toLowerCase();
+        if (LowerCase.indexOf('windows nt') === -1 && LowerCase.indexOf('macintosh') === -1) {
+          
+          location.href = '/m/'+path;
+    
+      };
+    </script>
+
+<body data_game_type="mob" data_game_id="350">
+  <div class="container">
+  <!-- 顶通 -->
+  <%- include("./head.html") %>
+
+<!--内页头部区 开始-->
+<div class="NeiHeaderBar"> 
+  
+<!--头部导航-->
+<div class="Nav_1ji_bar">
+    <div class="Nav_1ji_Group">
+        <h2 class="logoTu"><a href="//shengbei.youzu.com/" title="圣杯之魂" class="logo_pic"><img src="<%= newsData.data.logo[0].thumb[0] %>"
+          alt=""></a></h2>
+      <p class="icon_ji icon_line_post"></p>
+      <ul class="navs1ji" >
+          <li class="nji_1"> <a href="../" class="">首页</a> </li>
+          <li class="nji_2"> <a href="../hot.html" class="" target="_blank">新闻</a> </li>
+          <li class="nji_3"> <a href="../adv1.html" class="" target="_blank">新手</a> </li>
+          <li class="nji_4"> <a href="../yingxiang.html" class="" target="_blank">品牌</a> </li>
+          <li class="nji_5"> <a href="../hero.html" class="" target="_blank">资料</a> </li>
+      </ul>
+    </div>
+  </div>
+  <div class="Nav_2ji_bar">
+    <div class="Nav_2ji_Group">
+      <ul class="navs2ji" >
+        <li class="nbi_1" ></li>
+        <li class="nbi_2" >
+            <p><a href="../../news.html" target="_blank"><i></i>新闻<i></i></a></p>
+            <p><a href="../../active.html" target="_blank"><i></i>活动<i></i></a></p>
+            <p><a href="../../notice.html" target="_blank"><i></i>公告<i></i></a></p>
+            <p><a href="../../media.html" target="_blank"><i></i>媒体<i></i></a></p>
+          </li>
+        <li class="nbi_3">
+          <p><a href="../../adv1.html" target="_blank"><i></i>新手推荐<i></i></a></p>
+          <p><a href="../../adv2.html"target="_blank" ><i></i>高手进阶<i></i></a></p>
+        </li>
+        <li class="nbi_4">
+          <p><a href="../../yingxiang.html" target="_blank"><i></i>圣杯碎片<i></i></a></p>
+        </li>
+        <li class="nbi_5">
+          <p><a href="../../hero.html" target="_blank"><i></i>圣杯图鉴<i></i></a></p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--头部导航 end--> 
+  
+  <!--头部内容  -->
+  <div class="NeiHeaderGroup">
+    <p class="biaoti_breadcrums">当前位置：<a href="../../index.html">圣杯官网</a> ＞ <a href="../../news.html">圣杯新闻</a> ＞ <%= detailData.data.name%> </p>
+    <p class="biaoti_zi"><img src="//shengbei.youzu.com/shengbei/guanwang_pc/images/chuanwen.png?v=20181102" alt=""  ></p>
+  </div>
+  <!--头部内容 end--> 
+  
+</div>
+<!--内页头部区 结束--> 
+
+<!--内容框架Start-->
+<div class="InNeirongWrap">
+  <div class="InNeirongGroup"> 
+    
+    <!--两列框总局-->
+    <div class="LiangGroup"> 
+      <!-- left 侧 -->
+      <div class="LiaGroup_a"> 
+        
+        <!--新闻页内容-->
+        <div class="NewsArticleGroup">
+            <h1 class="newsArt_bt"><%= detailData.data.info.title %></h1>
+
+          
+          <!-- 发布分享行 -->
+          <div class="fabu_info_zu">
+          
+            <p class="fabu_date"><%= detailData.data.info.pub_time %></p>
+              
+            <ul class="bdsharebuttonbox share_list"> 
+              <li>分享到 ： </li>
+              <li class="sharebiao" > <a data-cmd="tsina" class="icon_ji btn_sb_sina" title="分享到新浪微博"> </a> <a data-cmd="weixin" class="icon_ji btn_sb_weixin"  title="分享到微信"> </a> <a data-cmd="qzone" class="icon_ji btn_sb_qzone" title="分享到QQ空间"></a></li>
+            </ul>
+            <script type="text/javascript">
+      window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                   </script> 
+          </div>
+          <!-- 发布分享行  end --> 
+  
+            <!--新闻正文 -->
+            <br>
+            <%- detailData.data.info.content %>
+
+             
+        </div>
+        <!--新闻页内容 end--> 
+        
+      </div>
+      <!-- left 侧 end --> 
+      
+      <!-- right 侧 -->
+      <div class="LiaGroup_b">
+        <p class="bqu_ge"><em  class="icon_ji icon_rt_shang"></em> </p>
+        
+        <!--右栏下载游戏-->
+        <div class="RtdownBox">
+            <p class="RtBiaoti">游戏下载</p>
+            <div class="rmei_01">
+              <p class="sdgame_pic"><img src="<%= newsData.data.code.img %>" alt=""></p>
+              <p class="sdgame_txt">扫一扫下载游戏</p>
+            </div>
+            <div class="rmei_02">
+              <p> <a rel="nofollow" href="<%= newsData.data.downIos[0].url %>" class="icon_ji btn_rt_down_store" data_type="download_ios">app
+                  store</a> </p>
+              <p> <a rel="nofollow" href="<%= newsData.data.downAnd[0].url %>" class="icon_ji btn_rt_down_android" data_type="download_and">android</a>
+              </p>
+              <p> <a rel="nofollow" href="<%= newsData.data.downTap[0].url %>" class="icon_ji btn_rt_down_taptap" data_type="download_tap">taptap</a> </p>
+            </div>
+          </div>
+          <!-- 右栏下载游戏 end-->
+
+          <!-- 右栏 热门新闻-->
+          <div class="RtHotNewsBox">
+            <p class="RtBiaoti">热门新闻</p>
+            <div class="RtHotNewsZu">
+              <% for(var i=0; i<newsData.data.newNews.newsList.length; i++) { %>
+              <p class="hozuwz"> <a href="<%= newsData.data.newNews.newsList[i].url %>" target="_blank" title="" class="zw">
+                  <%= newsData.data.newNews.newsList[i].name %></a> </p>
+              <% } %>
+            </div>
+          </div>
+          <!-- 右栏 热门新闻 end-->
+
+          <!-- 右栏 官方媒体-->
+          <div class="RtMeitiBox">
+            <p class="RtBiaoti">官方媒体</p>
+            <div class="RouErmaBox">
+              <p class="rouer_pic"><span class="rouer_pi_bg"> </span> <img src="<%= newsData.data.address[0].content %>"
+                  alt="" /></p>
+              <p class="rouer_txt"> 微信二维码</p>
+              <p class="rou_shane_zu"> <a href="<%= newsData.data.address[1].content %>" class="sen_01"><em class="icon_ji icon_sha_weibo"></em><i>微博</i>
+                </a> <a href="<%= newsData.data.address[2].content %>" class="sen_02"><em class="icon_ji icon_sha_tieba"></em><i>贴吧</i>
+                </a> <a href="<%= newsData.data.address[3].content %>" class="sen_03"><em class="icon_ji icon_sha_bbs"></em><i>论坛</i>
+                </a> </p>
+            </div>
+          </div>
+          <!-- 右栏 官方媒体 end-->
+        
+      </div>
+      <!-- right 侧 end -->
+      <div class="clear"></div>
+    </div>
+    <!--两列框总局 end--> 
+    
+  </div>
+</div>
+<!--内容框架End--> 
+
+<!--尾部框架-->
+<div class="FootWrap_bg">
+
+    <div class="FootWrap"></div>
+  </div>
+  <!--  新版尾部内容 end --> 
+</div>
+</div>
+</div>
+<!--尾部框架End--> 
+
+<script src="//pic.youzu.com/common/jquery-1.8.3.min.js"></script> 
+<script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/focus.js?v=20181102"></script>
+<script src="//pic.youzu.com/common/auth/youzuWeixin.js"></script>
+<script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/common.js?v=20181102"></script>
+<script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/seclet.js?v=20181102"></script>
+
+</body>
+</html>

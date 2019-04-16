@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="zh-CN" />
+  <title>圣杯之魂游戏影像_游族圣杯之魂手游官网</title>
+  <meta name="keywords" content="圣杯之魂游戏资料,圣杯之魂,圣杯之魂手游,圣杯之魂官网,圣杯之魂活动,圣杯之魂礼包" />
+  <meta name="description" content="《圣杯之魂》是由游族网络代理发行的3D战斗卡牌手游，游戏以次时代精致画面、独特玩法、热血战斗、强大的组合技和丰富的世界观与你见面！圣杯之魂资料站跟您提供最详细最系统的游戏介绍，了解更多游戏影像资料，请关注圣杯之魂游戏官网！" />
+  <link href="//shengbei.youzu.com/shengbei/guanwang_pc/css/liebook.css?v=20181102" rel="stylesheet" type="text/css">
+
+  <link rel="canonical" href="//shengbei.youzu.com/yingxiang.html" />
+  <link rel="alternate" media="only screen and (max-width: 640px)" href="//shengbei.youzu.com/m/pic.html" />
+</head>
+
+<body data_game_type="mob" data_game_id="350">
+  <div class="container">
+  <!-- 顶通 -->
+  <%- include("./head.html") %>
+
+    <!--内页头部区 开始-->
+    <div class="NeiHeaderBar">
+
+      <!--头部导航-->
+      <div class="Nav_1ji_bar">
+        <div class="Nav_1ji_Group">
+          <h1 class="logoTu"><a href="http://shengbei.youzu.com/" title="圣杯之魂" class="logo_pic"><img src="<%= mediaData.data.logo[0].thumb[0]%>"
+                alt=""></a></h1>
+          <p class="icon_ji icon_line_post"></p>
+          <ul class="navs1ji">
+              <li class="nji_1"> <a href="/" class="">首页</a> </li>
+              <li class="nji_2"> <a href="hot.html" class="" target="_blank">新闻</a> </li>
+              <li class="nji_3"> <a href="adv1.html" class="" target="_blank">新手</a> </li>
+              <li class="nji_4"> <a href="yingxiang.html" class="" target="_blank">品牌</a> </li>
+              <li class="nji_5"> <a href="hero.html" class="" target="_blank">资料</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="Nav_2ji_bar">
+        <div class="Nav_2ji_Group">
+          <ul class="navs2ji">
+            <li class="nbi_1"></li>
+            <li class="nbi_2">
+              <p><a href="news.html" target="_blank"><i></i>新闻<i></i></a></p>
+              <p><a href="active.html" target="_blank"><i></i>活动<i></i></a></p>
+              <p><a href="notice.html" target="_blank"><i></i>公告<i></i></a></p>
+              <p><a href="media.html" target="_blank"><i></i>媒体<i></i></a></p>
+            </li>
+            <li class="nbi_3">
+              <p><a href="adv1.html" target="_blank"><i></i>新手推荐<i></i></a></p>
+              <p><a href="adv2.html" target="_blank"><i></i>高手进阶<i></i></a></p>
+            </li>
+            <li class="nbi_4">
+              <p><a href="yingxiang.html" target="_blank"><i></i>圣杯碎片<i></i></a></p>
+            </li>
+            <li class="nbi_5">
+              <p><a href="hero.html" target="_blank"><i></i>圣杯图鉴<i></i></a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--头部导航 end-->
+
+      <!--头部内容  -->
+      <div class="NeiHeaderGroup">
+        <p class="biaoti_breadcrums">当前位置：<a href="index.html">圣杯官网</a> ＞ <a href="#">品牌</a>＞ <a href="#">圣杯碎片</a></p>
+        <p class="biaoti_zi"><img src="//shengbei.youzu.com/shengbei/guanwang_pc/images/suipian.png?v=20181102" alt=""></p>
+      </div>
+      <!--头部内容 end-->
+
+    </div>
+    <!--内页头部区 结束-->
+
+    <!--内容框架Start-->
+    <div class="InNeirongWrap">
+      <div class="InNeirongGroup">
+
+        <!--两列合一框局-->
+        <div class="LiangHeGroup LieYingGroup">
+
+          <!--圣杯影像 页-->
+
+          <!--游戏视频-->
+          <div class="GmVideoGroup">
+            <p class="LieYing_biaoti"><em class="icon_ji icon_zzhanbt"> </em>游戏视频</p>
+
+
+            <!--大视频图-->
+            <div class="dashiGroup">
+              <ul class="dashi_Zu">
+                <% for (var i=0; i<mediaData.data.game_video.length; i++) { %>
+                <li class=" "> <a data-num="<%= i %>" href="javascript:;" class="dashi_liank"> </a>
+                  <p class="dashi_zhe"></p>
+                  <em class="icon_ji icon_da_shi_video"></em>
+                  <p class="dashi_zi"> <em class="icon_ji icon_xiao_shi_video"></em>
+                    <%= mediaData.data.game_video[i].title %>
+                  </p>
+                  <p class="dashi_tu"><img src="<%= mediaData.data.game_video[i].ad_addition[1].content %>" alt=""></p>
+                </li>
+
+                <div class="pop-video">
+                  <a href="javascript:void(0);" class="g-close js_pop_close"></a>
+                  <div class="video">
+                    <video src="<%= mediaData.data.game_video[i].ad_addition[0].content %>" width="100%" height="100%"
+                      controls="" id="video-wrapper"></video>
+                  </div>
+                </div>
+                <% } %>
+              </ul>
+              <div class="clear"></div>
+            </div>
+            <!--大视频图 end-->
+
+            <!--游戏图赏-->
+            <div class="PicShangGroup" id="wz_xinshang">
+              <p class="LieYing_biaoti"><em class="icon_ji icon_zzhanbt"> </em>游戏图赏</p>
+              <!--大图赏-->
+              <div class="datushGroup">
+                <ul class="datush_Zu">
+                  <% for (var i=0; i< mediaData.data.game_pic.data.length; i++) { %>
+                  <li class=" "> <a href="javascript:;" class="tushang_pic">
+                      <p class="dashi_zhe"></p>
+                      <em class="icon_ji icon_da_fang"></em>
+                      <p class="dashi_tu"><img src=" <%= mediaData.data.game_pic.data[i].content %> " alt="" /></p>
+                    </a>
+                  </li>
+                  <div class="pop_tuhua_Box"><a rel="nofollow" title="关闭弹窗" class="btns_close_pop" href="javascript:;"><i>X</i></a>
+                    <p class="tuhua_zu"><img src="<%= mediaData.data.game_pic.data[i].content %>" alt="86"></p>
+                  </div>
+                  <% } %>
+                </ul>
+                <div class="clear"></div>
+              </div>
+              <!--大图赏 end-->
+
+
+              <!-- 翻页开始 -->
+              <div class="YingpagenumQu">
+                <ul class="yiiPager">
+                  <% for (var i=1; i <= mediaData.data.game_pic.total_page; i++) { %>
+                  <% if (mediaData.data.game_pic.page > 1) {%>
+                  <li class="previous" data-pre="<%= i-1 %>"><a href="javascript:;">上一页</a></li>
+                  <%} else {%>
+                  <li class="previous" data-pre="1"><a href="javascript:;">上一页</a></li>
+                  <%}%>
+
+                  <% if (mediaData.data.game_pic.page == i){ %>
+                  <li class="page-pic selected" data-page="<%= i %>"><a href="javascript:;">
+                      <%= i %></a></li>
+                  <%} else { %>
+                  <li class="page-pic" data-page="<%= i %>"><a href="javascript:;"><a>
+                        <%= i %></a></li>
+                  <%}%>
+
+                  <% if (mediaData.data.game_pic.page > 1) {%>
+                  <li class="next" data-next="<%= i+1 %>"><a href="javascript:;">下一页</a></li>
+                  <%} else {%>
+                  <li class="next" data-next="1"><a href="javascript:;">下一页</a></li>
+                  <%}%>
+
+                  <% } %>
+                </ul>
+              </div>
+              <!-- /翻页结束 -->
+
+
+
+              <p class="icon_ji Xins_di_bg"> </p>
+            </div>
+            <!--游戏图赏 end-->
+
+
+            <!--圣杯影像 页 end-->
+          </div>
+          <!--两列合一框局 end-->
+
+        </div>
+      </div>
+      <!--内容框架End-->
+
+      <!--尾部框架-->
+      <div class="FootWrap_bg">
+
+        <div class="FootWrap"></div>
+      </div>
+    </div>
+  </div>
+  <!--尾部框架End-->
+  <div class="m-overlay"></div>
+
+
+
+  <script src="http://pic.youzu.com/common/jquery-1.8.3.min.js"></script>
+  <script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/focus.js?v=20181102"></script>
+  <script src="//pic.youzu.com/common/auth/youzuWeixin.js"></script>
+  <script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/common.js?v=20181102"></script>
+  <script src="//shengbei.youzu.com/shengbei/guanwang_pc/js/seclet.js?v=20181102"></script>
+
+  <script>
+    // 游戏原画
+    var yuanhua_click = document.getElementsByClassName('yuanhua_click');
+    var yuanhua_big = document.getElementById('yuanhua_big');
+    for (var i = 0; i < yuanhua_click.length; i++) {
+      yuanhua_click[i].onclick = function (event) {
+        yuanhua_big.src = this.href;
+        return false;
+        event.preventDefault();
+      }
+    }
+
+    // 游戏图赏
+    var pre, next;
+    $(".previous").click(function () {
+      pre = $(this).data("pre");
+      getImg(pre);
+    })
+    $(".next").click(function () {
+      next = $(this).data("next");
+      getImg(next);
+    })
+    $(".page").click(function () {
+      page = $(this).data("page");
+      getImg(page);
+    })
+
+    function getImg(page) {
+      $.ajax({
+        url: "http://webapi.youzu.com/sbGuanwang/default/game_pic",
+        type: 'GET',
+        dataType: "jsonp",
+        data: {
+          page: page
+        },
+        success: function (res) {
+          $(".datushGroup .datush_Zu").html("");
+          $.each(res.data, function (index, info) {
+            if (index == "data") {
+              if (info != "") {
+                for (var i = 0; i < info.length; i++) {
+                  Html = '<li class=" "> <a href="javascript:;" class="tushang_pic">';
+                  Html += '<p class="dashi_zhe"></p><em class="icon_ji icon_da_fang"></em>';
+                  Html += '<p class="dashi_tu"><img src="' + info[i].content + '" alt="" /></p></a></li>';
+
+                  Html +=
+                    '<div class="pop_tuhua_Box" ><a rel="nofollow" title="关闭弹窗" class="btns_close_pop" href="javascript:;"><i>X</i></a>';
+                  Html += '<p class="tuhua_zu"><img src="' + info[i].content + '" alt="86"></p></div>';
+
+                  $(".datushGroup .datush_Zu").append(Html);
+                }
+              }
+            }
+          })
+
+          //碎片页- 图片展示
+          $('.tushang_pic').click(function (event) {
+            var a = $(this).data("num");
+            // console.log(a);
+            $('.m-overlay').fadeIn();
+            $('.pop_tuhua_Box').hide();
+            $(this).parent().next().fadeIn();
+            // console.log($(this).parent().next());
+          });
+          $('.btns_close_pop').click(function () {
+            $(this).parent().fadeOut();
+            $('.m-overlay').fadeOut();
+          })
+
+
+        },
+        error: function (err) {
+          alert("网络异常");
+        }
+      })
+    }
+  </script>
+</body>
+
+</html>

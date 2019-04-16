@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe28d6b6-ab99-405c-b444-48b78be94912" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/active.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/active.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/adv1.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/adv1.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/adv2.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/adv2.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/faq.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/faq.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/hero.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/hero.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/hot.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/hot.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/index.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/index.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/media.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/media.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/news.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/news.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/news_details.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/news_details.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/notice.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/notice.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_pc/yingxiang.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_pc/yingxiang.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_yd/faq.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_yd/faq.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_yd/index.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_yd/index.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_yd/listBeginner.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_yd/listBeginner.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_yd/listBetter.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_yd/listBetter.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_yd/news.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_yd/news.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_yd/news_details.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_yd/news_details.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/guanwang_yd/pic.html" afterPath="$PROJECT_DIR$/views/shengbei/guanwang_yd/pic.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/shengbei_pc/yuyue.html" afterPath="$PROJECT_DIR$/views/shengbei/shengbei_pc/yuyue.html" />
+      <change beforePath="$PROJECT_DIR$/views/shengbei/shengbei_yd/yuyue.html" afterPath="$PROJECT_DIR$/views/shengbei/shengbei_yd/yuyue.html" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="yuyue.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/shengbei/shengbei_pc/yuyue.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listBeginner.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/listBeginner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listBetter.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/listBetter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news_details.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/news_details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pic.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/pic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="yingxiang.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/yingxiang.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="faq.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/faq.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.haidi_bg</find>
+      <find>di_num</find>
+      <find>title</find>
+      <find>bodyParser</find>
+      <find>&lt;&lt;&lt;&lt;</find>
+      <find>FootWrap</find>
+      <find>_FOOTER_</find>
+      <find>btn-xz</find>
+      <find>btn-header</find>
+      <find>body</find>
+      <find>icon_ji</find>
+      <find>side_dow</find>
+      <find>down</find>
+    </findStrings>
+    <dirStrings>
+      <dir>D:\git\shengbei.youzu.com</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/server/index.js" />
+        <option value="$PROJECT_DIR$/views/yuyue/yuyue_pc/index.html" />
+        <option value="$PROJECT_DIR$/static/yuyue/yuyue_pc/css/main.css" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/hero.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/yingxiang.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_yd/faq.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_yd/listBeginner.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_yd/listBetter.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_yd/news.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_yd/news_details.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_yd/pic.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_yd/index.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/index.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/active.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/adv1.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/adv2.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/faq.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/hot.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/media.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/news.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/news_details.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/guanwang_pc/notice.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/shengbei_yd/yuyue.html" />
+        <option value="$PROJECT_DIR$/views/shengbei/shengbei_pc/yuyue.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="12" />
+    <option name="width" value="1924" />
+    <option name="height" value="1044" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shengbei.youzu.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shengbei.youzu.com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shengbei.youzu.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shengbei.youzu.com" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shengbei.youzu.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shengbei.youzu.com" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="shengbei" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shengbei.youzu.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shengbei.youzu.com" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="shengbei" type="462c0819:PsiDirectoryNode" />
+              <item name="guanwang_pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shengbei.youzu.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shengbei.youzu.com" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="shengbei" type="462c0819:PsiDirectoryNode" />
+              <item name="guanwang_yd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shengbei.youzu.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shengbei.youzu.com" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="shengbei" type="462c0819:PsiDirectoryNode" />
+              <item name="shengbei_pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shengbei.youzu.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shengbei.youzu.com" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="shengbei" type="462c0819:PsiDirectoryNode" />
+              <item name="shengbei_yd" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="D:\git\hh.youzu.com\node_modules\eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\shengbei.youzu.com" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\hh.youzu.com\static\yuyue\yuyue_pc\images\haibook" />
+      <recent name="D:\git\hh.youzu.com\static\yuyue\yuyue_pc\images\bgs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe28d6b6-ab99-405c-b444-48b78be94912" name="Default" comment="" />
+      <created>1536563025217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536563025217</updated>
+      <workItem from="1536563026378" duration="4279000" />
+      <workItem from="1546594762604" duration="400000" />
+      <workItem from="1546830232016" duration="10098000" />
+      <workItem from="1546914659759" duration="606000" />
+      <workItem from="1550053911398" duration="992000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="16375000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24657534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/views/shengbei/shengbei_pc/yuyue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="36" lean-forward="false" selection-start-line="175" selection-start-column="36" selection-end-line="175" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/shengbei_yd/yuyue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="213" lean-forward="false" selection-start-line="145" selection-start-column="154" selection-end-line="145" selection-end-column="213" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="228" column="53" lean-forward="false" selection-start-line="228" selection-start-column="53" selection-end-line="228" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/shengbei_pc/yuyue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/shengbei_yd/yuyue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2465">
+          <caret line="145" column="213" lean-forward="false" selection-start-line="145" selection-start-column="154" selection-end-line="145" selection-end-column="213" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="228" column="53" lean-forward="false" selection-start-line="228" selection-start-column="53" selection-end-line="228" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/yuyue/index.js" />
+    <entry file="file://$PROJECT_DIR$/static/yuyue/yuyue_pc/images/haibook/title_note.png" />
+    <entry file="file://$PROJECT_DIR$/views/yuyue/yuyue_pc/index.html" />
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1409">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/yuyue/yuyue_pc/css/main.css" />
+    <entry file="file://$PROJECT_DIR$/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/active.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="161" column="25" lean-forward="true" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/adv1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="148" column="138" lean-forward="false" selection-start-line="148" selection-start-column="138" selection-end-line="148" selection-end-column="138" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/adv2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="152" column="142" lean-forward="false" selection-start-line="152" selection-start-column="142" selection-end-line="152" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="116" column="105" lean-forward="false" selection-start-line="116" selection-start-column="105" selection-end-line="116" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/hero.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <marker date="1550053978680" expanded="true" signature="6804:6830" ph="..." />
+            <marker date="1550053978680" expanded="true" signature="6978:6992" ph="..." />
+            <marker date="1550053978680" expanded="true" signature="7006:7032" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/hot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="164" column="140" lean-forward="false" selection-start-line="164" selection-start-column="140" selection-end-line="164" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="671" column="12" lean-forward="true" selection-start-line="671" selection-start-column="12" selection-end-line="671" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/media.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="163" column="140" lean-forward="false" selection-start-line="163" selection-start-column="140" selection-end-line="163" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="165" column="34" lean-forward="true" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/news_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="146" column="138" lean-forward="false" selection-start-line="146" selection-start-column="138" selection-end-line="146" selection-end-column="138" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/notice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="164" column="140" lean-forward="false" selection-start-line="164" selection-start-column="140" selection-end-line="164" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/sitemap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_pc/yingxiang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/faq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="76" lean-forward="false" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/listBeginner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/listBetter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="45" lean-forward="false" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/news_details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="45" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/guanwang_yd/pic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/shengbei_yd/yuyue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="58" column="123" lean-forward="false" selection-start-line="58" selection-start-column="123" selection-end-line="58" selection-end-column="123" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shengbei/shengbei_pc/yuyue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

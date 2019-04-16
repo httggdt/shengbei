@@ -1,0 +1,48 @@
+/*-----------------[初始化]--------------*/
+*,*:before,*:after {
+    margin: 0;
+    padding: 0;
+    /* -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; */
+    outline: none !important;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); 
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+body {font-size: 16px;line-height: 1.5;font-family: 'Microsoft Yahei',"PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;min-width: 1000px;overflow-x: hidden;}
+img {max-width: 100%;border: none;}
+input,textarea,select {font-size: 14px;color: #333;font-family: 'Microsoft Yahei',"PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;border: none;}
+input [type='submit'],input[type='reset'],input[type='button'],input[type='radio'],input[type='checkbox'],select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+::-webkit-input-placeholder {color: #c7c9cb;}
+::-moz-placeholder {color: #c7c9cb;}
+::-ms-input-placeholder {color: #c7c9cb;}
+select::-ms-expand {display: none;}
+a {color: #333;text-decoration: none;}
+a:hover {color: #ca1318;}
+
+ul {list-style: none;}
+.fix{*zoom:1;}
+.fix:after,.fix:before{display:block;content:"";height:0;clear:both;}
+table{border-collapse:collapse; border-spacing:0;}
+.c {clear: both;}
+
+.col-l {float: left;}
+.col-r {float: right;}
+
+em {font-style: normal;}
+
+.wp{
+    width: 1275px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+/*布局*/
